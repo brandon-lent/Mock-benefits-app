@@ -1,28 +1,52 @@
-# Create T3 App
+# About
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This is the repository that follows along with my [create-t3-app](https://brandon-lent.com/tags/create-t3-app-gov) investigation. I've sectioned off relevant changes into their own commits so you can view individual, relevant changes.
 
-## What's next? How do I make an app with this?
+## Setup
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+To get setup with this repository, you can follow along below:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### Clone repository to folder of your choice
+```
+git clone https://github.com/brandon-lent/Mock-benefits-app.git
+```
+
+### Install dependencies
+```
+cd Mock-benefits-app
+npm install
+```
+
+### Set environment variables
+tk
+
+### Start application
+```
+npm run dev
+```
+
+
+## Technical Context
+
+### [Create T3 App](https://create.t3.gg/)
+
+This application has been built using the create-t3-app stack. The options I've chosen for setup follows:
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
 - [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### [USWDS](https://designsystem.digital.gov/)
+I've chosen to use the United States Web Design system for all styling. The reason being:
+- It's a common design system choice among government clients
+- It's fairly easy to get setup and working
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### [Storybook](https://storybook.js.org/)
+Storybook is a way to render individual pages / components in an easily shareable format. This is overall a great tool when collaborated with non-engineers and also makes local development and testing easier.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
-## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+
